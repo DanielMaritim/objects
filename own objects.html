@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>own objects</title>
+	<script type="text/javascript">
+	
+	// we will need to create a constructor function for our objects
+	//we then go ahead and create the object and assign it values/properties./creating a new instance of an object
+	//the "this" keyword helps assign to the specific object properties
+		
+		function person (name,age){
+			this.name = name;
+			this.age = age;
+		}
+		var daniel = new person ("daniel", 30);
+		
+	</script>
+	
+</head>
+<body>
+	
+</body>
+
+<script type="text/javascript">
+
+		document.write(daniel.age);
+
+</script>
+
+</html>
